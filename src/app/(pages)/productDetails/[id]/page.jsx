@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 // import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import { proData } from '@/app/(home)/proData';
+import { proData } from '../../(home)/proData';
 
 
 
@@ -46,7 +46,9 @@ const data =proData.find((item) => {
 
 
   return (
-    <div style={{ height: "100vh",
+    <div 
+    className="proDetails"
+    style={{ height: "120vh",
       display: "grid",
       alignItems: "center",
       gridTemplateRows:"auto 1fr auto"}} >

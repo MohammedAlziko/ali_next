@@ -1,13 +1,14 @@
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
 
-import "./home.css"
 import Products from "./products";
 import { Suspense } from "react";
 import Loading from "./loading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
 
+// import "../../globals.css";
+import "./home.css";
 
 export default function Home() {
   return (
